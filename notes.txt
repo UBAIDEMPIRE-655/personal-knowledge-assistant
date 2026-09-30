@@ -1,0 +1,25 @@
+Git and GitHub Notes
+
+Git is a version control tool that runs on your own computer. It saves checkpoints of your project called commits. Every commit has a short message that describes what changed.
+
+GitHub is a website that stores a copy of your Git repository online. You upload commits to GitHub using push, and download new commits using pull.
+
+A repository is a project folder that Git is tracking. A branch is a separate line of work, like a safe copy where you can experiment. The main branch is the official version of the project.
+
+Merging means combining the work of one branch into another branch. When two people change the same line of the same file, Git reports a merge conflict and asks you to choose which version to keep.
+
+The rhythm to remember is: pull, branch, work, commit, push.
+
+Agentic AI Notes
+
+An AI agent is a language model that has a role, a goal, and sometimes tools that it can call. A crew is a group of agents that work together on tasks one after another.
+
+RAG stands for Retrieval Augmented Generation. In RAG, a document is split into small chunks, each chunk is converted into an embedding (a list of numbers that captures meaning), and the chunks most similar to a question are retrieved and given to the language model.
+
+A tool is a Python function that an agent can call, for example a web search function. Giving an agent a tool it never uses is a design mistake called tool sprawl.
+
+CrewAI memory lets a crew remember earlier questions and answers across separate runs.
+
+Python Notes
+
+The latest stable version of Python is 3.9. Python is an interpreted language and uses indentation to define code blocks.
